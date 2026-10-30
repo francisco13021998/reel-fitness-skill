@@ -1,0 +1,262 @@
+{
+ "_comment": "Versión simplificada aprobada: sin gráficos propios en la parte de los estudios (las imágenes del estudio ya insertadas en el vídeo lo ilustran; sobre ellas SÍ hay subtítulos), pocas pegatinas, efectos y sonidos; sin subtítulos solo durante el gancho y los gráficos a pantalla completa con texto.",
+ "video": "assets/reel.mp4",
+ "duration": 48.622,
+ "volume": 1,
+ "faceOriginY": "29%",
+ "captionsTop": 1140,
+ "hook": {
+  "t1": 2.4,
+  "l1": "ESTÁS TIRANDO",
+  "l2": "TU PROTEÍNA"
+ },
+ "fixes": [
+  [
+   "¡Suscríbete",
+   ""
+  ],
+  [
+   "al",
+   "",
+   "¡Suscríbete"
+  ],
+  [
+   "canal!",
+   ""
+  ]
+ ],
+ "keywords": [
+  "dinero",
+  "proteína",
+  "fuerte",
+  "menos",
+  "creer",
+  "meta-análisis",
+  "49",
+  "estudios",
+  "1.800",
+  "personas",
+  "1,6",
+  "1,5",
+  "gramos",
+  "kilogramo",
+  "suficiente",
+  "maximizar",
+  "masa",
+  "muscular",
+  "mayor",
+  "absurdas",
+  "mejor",
+  "ciencia",
+  "entrenamiento",
+  "seguirme"
+ ],
+ "stickers": [
+  [
+   5.5,
+   7.1,
+   "emoji:assets/emoji/1f4c9.svg",
+   "L",
+   "Bastante menos"
+  ],
+  [
+   45.4,
+   46.9,
+   "emoji:assets/emoji/1f514.svg",
+   "R",
+   "Sígueme"
+  ]
+ ],
+ "graphics": [
+  {
+   "t0": 31.4,
+   "t1": 34.3,
+   "kind": "list",
+   "mode": "full",
+   "title": "Tu objetivo",
+   "items": [
+    "1,5 – 1,6 g/kg",
+    "Cada día",
+    "Para ganar músculo"
+   ]
+  },
+  {
+   "t0": 41,
+   "t1": 43.3,
+   "kind": "versus",
+   "mode": "full",
+   "left": {
+    "label": "Más y más",
+    "emoji": "1f4b8",
+    "bad": true
+   },
+   "right": {
+    "label": "Lo justo: 1,6 g/kg",
+    "art": "dumbbell"
+   }
+  }
+ ],
+ "cam": [
+  [
+   0,
+   1.25,
+   0,
+   "none"
+  ],
+  [
+   0.5,
+   1,
+   0.5,
+   "power3.out"
+  ],
+  [
+   3.87,
+   1.15,
+   0.14,
+   "power4.out"
+  ],
+  [
+   4.4,
+   1,
+   0.3,
+   "power2.inOut"
+  ],
+  [
+   37.12,
+   1.2,
+   0.12,
+   "power4.out"
+  ],
+  [
+   37.9,
+   1,
+   0.3,
+   "power2.inOut"
+  ],
+  [
+   46.02,
+   1.15,
+   0.1,
+   "power4.out"
+  ],
+  [
+   46.8,
+   1,
+   0.35,
+   "power2.inOut"
+  ]
+ ],
+ "shakes": [
+  [
+   0.02,
+   14
+  ],
+  [
+   37.12,
+   10
+  ]
+ ],
+ "flashes": [
+  [
+   0,
+   0.5
+  ]
+ ],
+ "rings": [],
+ "reds": [],
+ "capShakes": [],
+ "stamps": [
+  [
+   37.12,
+   "NO",
+   0.6
+  ]
+ ],
+ "sfx": [
+  [
+   "sfx-hook",
+   "impact-bass-1",
+   0,
+   1.8,
+   0.55,
+   0
+  ],
+  [
+   "sfx-hook2",
+   "whoosh-short",
+   0.22,
+   0.57,
+   0.35,
+   0
+  ],
+  [
+   "sfx-fuerte",
+   "impact-bass-2",
+   3.85,
+   1.6,
+   0.4,
+   0
+  ],
+  [
+   "sfx-ov1",
+   "whoosh-short",
+   9.52,
+   0.57,
+   0.25,
+   0
+  ],
+  [
+   "sfx-ov2",
+   "whoosh-short",
+   14.32,
+   0.57,
+   0.25,
+   0
+  ],
+  [
+   "sfx-ov3",
+   "whoosh-short",
+   18.62,
+   0.57,
+   0.25,
+   0
+  ],
+  [
+   "sfx-ov4",
+   "whoosh-short",
+   25.82,
+   0.57,
+   0.25,
+   0
+  ],
+  [
+   "sfx-no",
+   "impact-bass-1",
+   37.1,
+   1.6,
+   0.5,
+   0
+  ],
+  [
+   "sfx-follow",
+   "ping",
+   46,
+   1.2,
+   0.4,
+   0
+  ]
+ ],
+ "grade": {
+  "preset": "skin-soft",
+  "intensity": 0.6,
+  "adjust": {
+   "highlights": -0.06,
+   "shadows": 0.08,
+   "contrast": 0.03,
+   "vibrance": 0.03
+  },
+  "details": {
+   "vignette": 0.03
+  }
+ }
+}

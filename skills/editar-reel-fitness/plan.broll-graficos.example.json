@@ -1,0 +1,288 @@
+{
+ "_comment": "Ejemplo de B-roll (los 3 modos) y de TODOS los gráficos propios. Solo muestra la sintaxis: en un reel real no se usan tantos; elige los que validen cada idea.",
+ "broll": [
+  {
+   "t0": 7.9,
+   "t1": 9.4,
+   "src": "assets/media/pesas-gimnasio.mp4",
+   "mode": "full"
+  },
+  {
+   "t0": 9.5,
+   "t1": 11,
+   "src": "assets/media/carbohidratos-horizontal.mp4",
+   "mode": "frame",
+   "aspect": 1.778,
+   "tag": "Carbohidratos"
+  },
+  {
+   "t0": 19.3,
+   "t1": 20.9,
+   "src": "assets/media/cafe-molido.jpg",
+   "mode": "pip",
+   "tag": "Café"
+  }
+ ],
+ "graphics": [
+  {
+   "t0": 2.4,
+   "t1": 4.4,
+   "kind": "bars",
+   "mode": "full",
+   "title": "Precio por dosis",
+   "items": [
+    {
+     "label": "Pre-entreno",
+     "value": 1.5,
+     "suffix": " €",
+     "dec": 2,
+     "bad": true
+    },
+    {
+     "label": "Plátano + café",
+     "value": 0.35,
+     "suffix": " €",
+     "dec": 2
+    }
+   ]
+  },
+  {
+   "t0": 6.6,
+   "t1": 7.8,
+   "kind": "stick",
+   "action": "lift",
+   "mode": "full",
+   "label": "Entreno con pesas"
+  },
+  {
+   "t0": 12.4,
+   "t1": 14,
+   "kind": "stick",
+   "action": "tired",
+   "mode": "panel",
+   "label": "Sin energía"
+  },
+  {
+   "t0": 16,
+   "t1": 17.8,
+   "kind": "stick",
+   "action": "drink",
+   "mode": "full",
+   "label": "Café = cafeína"
+  },
+  {
+   "t0": 22,
+   "t1": 23.4,
+   "kind": "sign",
+   "type": "warning",
+   "mode": "panel",
+   "text": "Sistema nervioso"
+  },
+  {
+   "t0": 24,
+   "t1": 26,
+   "kind": "line",
+   "mode": "full",
+   "title": "Rendimiento",
+   "points": [
+    3,
+    4,
+    6,
+    8,
+    9
+   ],
+   "labels": [
+    "Sin café",
+    "Con café"
+   ]
+  },
+  {
+   "t0": 26.3,
+   "t1": 27.6,
+   "kind": "stick",
+   "action": "run",
+   "mode": "full",
+   "label": "Más alerta"
+  },
+  {
+   "t0": 28.4,
+   "t1": 29.4,
+   "kind": "stick",
+   "action": "celebrate",
+   "mode": "panel",
+   "label": "+1 rep"
+  },
+  {
+   "t0": 29.5,
+   "t1": 31.6,
+   "kind": "list",
+   "mode": "full",
+   "title": "Tu pre-entreno",
+   "items": [
+    "Plátano",
+    "Café"
+   ]
+  },
+  {
+   "t0": 31.8,
+   "t1": 33.6,
+   "kind": "versus",
+   "mode": "full",
+   "left": {
+    "label": "Pre-entreno",
+    "emoji": "1f4b8",
+    "bad": true
+   },
+   "right": {
+    "label": "Plátano + café",
+    "art": "duo"
+   }
+  },
+  {
+   "t0": 34,
+   "t1": 35.6,
+   "kind": "counter",
+   "mode": "full",
+   "value": 20,
+   "label": "Ingredientes de relleno"
+  },
+  {
+   "t0": 36,
+   "t1": 37.4,
+   "kind": "stick",
+   "action": "think",
+   "mode": "full",
+   "label": "¿Para qué?"
+  },
+  {
+   "t0": 14.2,
+   "t1": 15.2,
+   "kind": "sign",
+   "type": "cross",
+   "mode": "full",
+   "text": "No rindes"
+  },
+  {
+   "t0": 43.35,
+   "t1": 47.3,
+   "kind": "balance",
+   "mode": "full",
+   "left": {
+    "label": "Pagas: fatiga",
+    "emoji": "1faab"
+   },
+   "right": {
+    "label": "Recibes: estímulo",
+    "emoji": "1f4aa"
+   },
+   "pay": 0.25,
+   "receive": 1,
+   "level": 3.2,
+   "okText": "Equilibrio"
+  },
+  {
+   "t0": 32.2,
+   "t1": 38.6,
+   "kind": "lines",
+   "mode": "full",
+   "keepCaptions": true,
+   "title": "Beneficio vs fatiga",
+   "series": [
+    {
+     "label": "Beneficio",
+     "points": [
+      3.2,
+      3.9,
+      4.6,
+      5.3,
+      6,
+      6.7
+     ],
+     "color": "blue",
+     "at": 0.2,
+     "dur": 1
+    },
+    {
+     "label": "Fallo",
+     "points": [
+      1.8,
+      2.9,
+      4.2,
+      5.8,
+      7.6,
+      9.4
+     ],
+     "color": "red",
+     "at": 2.7,
+     "dur": 1.1,
+     "pulse": true
+    },
+    {
+     "label": "RIR 1-2",
+     "points": [
+      0.4,
+      0.8,
+      1.2,
+      1.6,
+      2,
+      2.4
+     ],
+     "color": "red2",
+     "at": 3.8,
+     "dur": 0.9
+    }
+   ],
+   "leftLabels": true,
+   "xLabel": "Tiempo →"
+  }
+ ],
+ "iconRow": {
+  "top": 1060,
+  "items": [
+   {
+    "emoji": "26a0",
+    "label": "Técnico"
+   },
+   {
+    "emoji": "1f4aa",
+    "label": "Muscular"
+   },
+   {
+    "emoji": "1f9e0",
+    "label": "Psicológico"
+   }
+  ],
+  "shows": [
+   {
+    "t0": 0.35,
+    "t1": 1.98,
+    "reveal": 0
+   },
+   {
+    "t0": 4.02,
+    "t1": 5.4,
+    "reveal": 1
+   },
+   {
+    "t0": 19.15,
+    "t1": 20.35,
+    "reveal": 2
+   },
+   {
+    "t0": 28.25,
+    "t1": 30.3,
+    "reveal": 3
+   }
+  ]
+ },
+ "callouts": [
+  {
+   "t0": 2,
+   "t1": 4,
+   "text": "Frena tus ganancias",
+   "icon": "cross",
+   "top": 1120,
+   "textAt": 2.5
+  }
+ ]
+}
